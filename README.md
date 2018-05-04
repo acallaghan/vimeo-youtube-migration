@@ -14,10 +14,8 @@ You must create a Vimeo app in order to access the private video you have stored
 
   Create an app. It needs a 'callback URL', set it to `http://localhost:8284?callback`. Once created, turn on 'Implicit Grant Workflow'.
 
-  Copy the client ID & access token into the `.env` file.
+2. Run the app
 
-2. Run the app, copy the link it gives you.
+  Run `node index.js`, it will authenticate your with your Vimeo account with the app you just created.
 
-  Run `node index.js`, it'll console log a URL to visit in your browser, which authenticate your with your Vimeo account with the app you just created.
-
-  Once you've accepted, copy the `ACCESS_KEY` from the URL & add it to `./env`
+  Once you've accepted, the `VIMEO_ACCESS_KEY` is added automatically to the `.env` file. The app will then quit.
