@@ -1,0 +1,33 @@
+{
+  "name": "vimeo-youtube-migration",
+  "version": "1.0.0",
+  "description": "Migrates a Vimeo user's videos to Youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acallaghan/vimeo-youtube-migration.git"
+  },
+  "keywords": [
+    "vimeo",
+    "youtube",
+    "video",
+    "migration",
+    "migrating",
+    "api"
+  ],
+  "author": "Andy Callaghan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acallaghan/vimeo-youtube-migration/issues"
+  },
+  "homepage": "https://github.com/acallaghan/vimeo-youtube-migration#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "opn": "^5.3.0",
+    "randomstring": "^1.1.5",
+    "vimeo": "^2.0.2"
+  }
+}
